@@ -1,8 +1,9 @@
 # Unit-Conversion-Extension
 
 
-## Requirement: 
-![design](design.png)
+## Requirements: 
+
+ ![design](Design.png)
 
 
 - You can change the color if  you want
@@ -11,6 +12,9 @@
 
 ## Code
 ### HTML
+Link: [Open HTML files in Editor](index.html)
+OR
+Quick Check here :point_down:
 ``` 
 <!DOCTYPE html>
 <html lang="en">
@@ -49,13 +53,141 @@
 </html>
  ```
 
-### CSS
-[css files](style.css)
+### CSS 
+Link: [Open CSS files in Editor](style.css)
+OR
+Quick Check here :point_down:
 ```
-[css files](style.css)
+body{
+    margin: 0;
+    padding: 0;
+    min-width: 400px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    background: url(dog.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100%; 
+}
+.main-clss{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+.sub-1-clss{
+    background: #a143ff;
+
+    width: 20rem;
+    height: 13rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-size: 0.7rem;
+    color: rgb(245, 247, 122);
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 10px black;
+}
+
+input{
+    background: #a143ff;
+    color: #FFFFFF;
+    width: 5rem;
+    height: 3rem;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0.2rem;
+    border: 2px solid #B295FF;
+    border-radius: 0.5rem;
+    box-shadow: none;
+}
+input:focus { 
+    outline: none !important;
+    box-shadow: 0 0 10px black;
+}
+
+input::placeholder{
+    color: #FFFFFF;
+}
+button{
+    width: 5rem;
+    height: 2rem;
+    background: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.00rem;
+    margin-top: 0.5rem;
+
+}
+button:active{
+   box-shadow: 0px 0px 1px 3px #D8F6CE;
+}
+.sb22clss{
+    background: rgb(123, 237, 195);
+    margin-bottom: 0.5rem ;
+    width: 20rem;
+    height: 6.81rem;
+    border-radius:none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 5px black;
+    border-radius: 10px;
+    font-size: 0.8rem;
+}
+h1{
+    text-shadow: 0 0 5px black;
+}
+h3{
+    margin: 0 0 0.563rem 0;
+    padding: 0.563rem 0 0 0;
+}
+p{
+    margin: 0;
+    padding: 0;
+
+}
+@media only screen and (min-width: 600px) {
+    body {
+      background-color: rgb(123, 237, 195);
+      font-size: 100%;
+    }
+    .sub-1-clss{
+        background: #5643ff;
+    
+        width: 35rem;
+        height: 18rem;
+        font-size: 1rem;
+        color: rgb(153, 247, 122);
+    }
+    input{
+        background: #5643ff;
+        width: 8rem;
+        height: 6rem;
+        font-size: 4rem;
+    }
+    button{
+        width: 8rem;
+        height: 3rem;
+        background: #ffffff;
+        font-size: 1.3rem; }
+    .sb22clss{
+        background: white;
+        margin-bottom: 1.464rem ;
+        width: 35rem;
+        font-size: 1rem;
+    }
+  }
+
+
+
 ```
 
 ### JavaScript
+Link: [Open JavaScript files in Editor](index.js)
+OR
+Quick Check here :point_down:
 ```
 
 /* Conversion Factors
@@ -117,7 +249,7 @@ function render(x,y,a,b,body ){
 }
 
 ```
-## Preview after completion
+## Preview after Completion: :sunglasses:
  ![Browser_Preview](preview.png)
  
 ## How to Add this Extension to Chrome
